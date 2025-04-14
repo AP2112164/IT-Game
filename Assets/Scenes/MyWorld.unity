@@ -5064,6 +5064,7 @@ GameObject:
   - component: {fileID: 1314461811}
   - component: {fileID: 1314461810}
   - component: {fileID: 1314461809}
+  - component: {fileID: 1314461813}
   m_Layer: 7
   m_Name: Floor
   m_TagString: Untagged
@@ -5151,13 +5152,40 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314461808}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.5273, y: -2.1413, z: 23.3596}
+  m_LocalRotation: {x: -1, y: -0, z: -0, w: 0.00000058114523}
+  m_LocalPosition: {x: -23.5273, y: -2.5025396, z: 23.359608}
   m_LocalScale: {x: 2918.72, y: 3408.177, z: 1780.634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!54 &1314461813
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314461808}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1334169919
 GameObject:
   m_ObjectHideFlags: 0
@@ -6691,11 +6719,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1800060147}
   m_SourcePrefab: {fileID: 100100000, guid: 17df80efefcb5904a8003e062b0546d3, type: 3}
---- !u!1 &1660622860 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a7c1003deb3bc144e889735fbb38584a, type: 3}
-  m_PrefabInstance: {fileID: 1883826905}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1680519373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: 2e08301d17fa43b49a4405c186d9684e, type: 3}
