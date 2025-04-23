@@ -11,6 +11,7 @@ Library: C:\Users\2112164\IT-Game\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_b
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\2112164\IT-Game\Temp\Burst
+--debug=LineOnly
 --key-folder=C:/Program Files/Unity/2022.3.55f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\2112164\IT-Game\Library\Burst
 --output=C:\Users\2112164\IT-Game\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -28,6 +29,7 @@ Library: C:\Users\2112164\IT-Game\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_b
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\2112164\IT-Game\Temp\Burst
+--debug=LineOnly
 --key-folder=C:/Program Files/Unity/2022.3.55f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\2112164\IT-Game\Library\Burst
 --output=C:\Users\2112164\IT-Game\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
